@@ -11,6 +11,7 @@ cp -r /var/work/web/goweb/miaopost/frontend/uploads /var/work/backup/miaopost
 
 cd /var/work/backup
 
+git pull origin master:master
 git add .
 git commit -m "backup"
 git push origin master:master

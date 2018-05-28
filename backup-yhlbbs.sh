@@ -10,6 +10,7 @@ mysqldump -u root -pyanghuolong123 yhlbbs --skip-lock-tables > yhlbbs_"$subfix".
 
 cd /var/work/backup
 
+git pull origin master:master
 git add .
 git commit -m "backup"
 git push origin master:master
